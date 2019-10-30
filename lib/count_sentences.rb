@@ -16,11 +16,10 @@ class String
 
   def count_sentences
     count = 0 
-    
     words = self.split(" ")
     
     words.each do |word|
-      if word.include
+      if word.include?(".") || word.include?(".") || word.include?(".") 
     end 
   end
 end
