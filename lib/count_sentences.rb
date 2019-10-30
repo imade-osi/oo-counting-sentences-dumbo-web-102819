@@ -20,6 +20,11 @@ class String
     
     words.each do |word|
       if word.include?(".") || word.include?(".") || word.include?(".") 
+        
+        count += 1 
+      end 
     end 
+    count 
   end
+  
 end
